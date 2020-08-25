@@ -13,13 +13,13 @@ struct ContentView: View {
         TabView {
             RollingView()
                 .tabItem {
-                    Image(systemName: "person.3")
+                    Image(systemName: "rhombus")
                     Text("Roll")
             }
             
             ResultsView()
                 .tabItem {
-                    Image(systemName: "checkmark.circle")
+                    Image(systemName: "clock")
                     Text("Results")
             }
         }
