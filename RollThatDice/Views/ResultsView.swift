@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ResultsView.swift
 //  RollThatDice
 //
 //  Created by Nate Lee on 8/25/20.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ResultsView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("ResultsView")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ResultsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ResultsView()
     }
 }
